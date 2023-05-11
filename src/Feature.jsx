@@ -8,7 +8,7 @@ function Feature(){
          <p>Some currently popular items</p>
          <div className = 'pro-container'>
             <div className = 'pro'>
-                <img src = "../public/img/space-jams.webp" alt = ""></img>
+                <img src = "/img/space-jams.webp" alt = ""></img>
                 <div className = "des">
                     <span>Jordan</span>
                     <h5>Air Jordan 11 Retro 'Space Jam'</h5>
