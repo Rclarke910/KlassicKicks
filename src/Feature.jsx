@@ -25,7 +25,7 @@ function Feature(){
             </div>
 
             <div className = 'pro'>
-                <img src = "../public/img/flu-game.jpeg" alt = ""></img>
+                <img src = "/img/flu-game.jpeg" alt = ""></img>
                 <div className = "des">
                     <span>Jordan</span>
                     <h5>Air Jordan 12 'Flu Game'</h5>
@@ -42,7 +42,7 @@ function Feature(){
             </div>
 
             <div className = 'pro'>
-                <img src = "../public/img/top-three.jpeg" alt = ""></img>
+                <img src = "/img/top-three.jpeg" alt = ""></img>
                 <div className = "des">
                     <span>Jordan</span>
                     <h5>Air Jordan 1 'Top 3'</h5>
@@ -59,7 +59,7 @@ function Feature(){
             </div>
 
             <div className = 'pro'>
-                <img src = "../public/img/bred4.jpeg" alt = ""></img>
+                <img src = "/img/bred4.jpeg" alt = ""></img>
                 <div className = "des">
                     <span>Jordan</span>
                     <h5>Air Jordan 4 'Bred'</h5>
@@ -76,7 +76,7 @@ function Feature(){
             </div>
 
             <div className = 'pro'>
-                <img src = "../public/img/bape.webp" alt = ""></img>
+                <img src = "/img/bape.webp" alt = ""></img>
                 <div className = "des">
                     <span>Addidas x Bape</span>
                     <h5>A BATHING APE X NMD_R1 'OLIVE CAMO'</h5>
@@ -93,7 +93,7 @@ function Feature(){
             </div>
 
             <div className = 'pro'>
-                <img src = "../public/img/boost.webp" alt = ""></img>
+                <img src = "/img/boost.webp" alt = ""></img>
                 <div className = "des">
                     <span>Adidas</span>
                     <h5>Yeezy Wave Runners</h5>
@@ -110,7 +110,7 @@ function Feature(){
             </div>
 
             <div className = 'pro'>
-                <img src = "../public/img/questions.webp" alt = ""></img>
+                <img src = "/img/questions.webp" alt = ""></img>
                 <div className = "des">
                     <span>Reebok</span>
                     <h5>Question Mid</h5>
@@ -127,7 +127,7 @@ function Feature(){
             </div>
 
             <div className = 'pro'>
-                <img src = "../public/img/dunks.webp" alt = ""></img>
+                <img src = "/img/dunks.webp" alt = ""></img>
                 <div className = "des">
                     <span>Nike</span>
                     <h5>Ben and Jerry Dunks</h5>

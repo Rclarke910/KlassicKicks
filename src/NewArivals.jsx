@@ -8,7 +8,7 @@ function NewArivals(){
          <p>our most exclusive collection </p>
          <div className = 'pro-container'>
             <div className = 'pro'>
-                <img src = "../public/img/freddy-kruger-dunks.webp" alt = ""></img>
+                <img src = "/img/freddy-kruger-dunks.webp" alt = ""></img>
                 <div className = "des">
                     <span>Nike</span>
                     <h5>SB Dunk Low 'Freddy Krueger'</h5>
@@ -25,7 +25,7 @@ function NewArivals(){
             </div>
 
             <div className = 'pro'>
-                <img src = "../public/img/eminem4.webp" alt = ""></img>
+                <img src = "/img/eminem4.webp" alt = ""></img>
                 <div className = "des">
                     <span>Jordan</span>
                     <h5>Air Jordan 4 Retro 'Eminem x Carhartt' </h5>
@@ -42,7 +42,7 @@ function NewArivals(){
             </div>
 
             <div className = 'pro'>
-                <img src = "../public/img/top-three.jpeg" alt = ""></img>
+                <img src = "/img/top-three.jpeg" alt = ""></img>
                 <div className = "des">
                     <span>Jordan</span>
                     <h5>Top 3 Jordan 1s</h5>
@@ -59,7 +59,7 @@ function NewArivals(){
             </div>
 
             <div className = 'pro'>
-                <img src = "../public/img/mags.webp" alt = ""></img>
+                <img src = "/img/mags.webp" alt = ""></img>
                 <div className = "des">
                     <span>Nike</span>
                     <h5>Nike Mag 'Back to the Future'</h5>
@@ -76,7 +76,7 @@ function NewArivals(){
             </div>
 
             <div className = 'pro'>
-                <img src = "../public/img/red-october.jpeg" alt = ""></img>
+                <img src = "/img/red-october.jpeg" alt = ""></img>
                 <div className = "des">
                     <span>Nike</span>
                     <h5>Nike Air Yeexy 2 'Red October'</h5>
@@ -93,7 +93,7 @@ function NewArivals(){
             </div>
 
             <div className = 'pro'>
-                <img src = "../public/img/boost.webp" alt = ""></img>
+                <img src = "/img/boost.webp" alt = ""></img>
                 <div className = "des">
                     <span>Adidas</span>
                     <h5>Yeezy Wave Runners</h5>
@@ -110,7 +110,7 @@ function NewArivals(){
             </div>
 
             <div className = 'pro'>
-                <img src = "../public/img/questions.webp" alt = ""></img>
+                <img src = "/img/questions.webp" alt = ""></img>
                 <div className = "des">
                     <span>Reebok</span>
                     <h5>Question Mid</h5>
@@ -127,7 +127,7 @@ function NewArivals(){
             </div>
 
             <div className = 'pro'>
-                <img src = "../public/img/dunks.webp" alt = ""></img>
+                <img src = "/img/dunks.webp" alt = ""></img>
                 <div className = "des">
                     <span>Nike</span>
                     <h5>Ben and Jerry Dunks</h5>

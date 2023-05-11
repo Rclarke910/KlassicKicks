@@ -34,15 +34,15 @@ function Footer(){
                 <h4>Install App</h4>
                 <p>From App Store or Google Play</p>
                 <div className='row'>
-                    <img src="../public/img/appstore.png" className='appstore'/>
-                    <img src='../public/img/googleplay.png' className='appstore playstore'/>
+                    <img src="/img/appstore.png" className='appstore'/>
+                    <img src='/img/googleplay.png' className='appstore playstore'/>
                     </div> 
                     <p>Secured Payment Gateways</p>
                     <div className="payments">
-                    <img src='../public/img/visa.jpeg' className='card' />
-                    <img src='../public/img/mastercard.jpeg' className='card' />
-                    <img src='../public/img/paypal.jpeg' className='card' />
-                    <img src='../public/img/americanex.jpeg' className='card' />
+                    <img src='/img/visa.jpeg' className='card' />
+                    <img src='/img/mastercard.jpeg' className='card' />
+                    <img src='/img/paypal.jpeg' className='card' />
+                    <img src='/img/americanex.jpeg' className='card' />
                     </div>           
                 </div>
                 </div>
