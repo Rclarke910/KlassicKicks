@@ -30,9 +30,9 @@ p{
   color: #465b52;
   margin: 15px 0 20px 0;
 }
-/* Header */
+/* Navbar */
 
-#header{
+#navbar{
   background-color: rgb(184, 34, 34);
   height: 80px;
   display: flex;
@@ -69,19 +69,19 @@ a{
   display: none;
 }
 
-#navbar{
+#nav{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#navbar li{
+#nav li{
   list-style: none;
   padding: 0 20px;
   position: relative;
 }
 
-#navbar li a{
+#nav li a{
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
@@ -89,12 +89,12 @@ a{
   transition: 0.3s ease;
 }
 
-#navbar li a:hover,
-#navbar li a.active{
+#nav li a:hover,
+#nav li a.active{
 color: red;
 }
 
-#navbar li a.active::after,
+#nav li a.active::after,
  li a:hover::after {
   content: "";
   width: 30%;
@@ -110,7 +110,7 @@ color: red;
 #hero{
   background-image: url('../public/img/jordan.png');
   background-size: 430px;
-  height: 125vh;
+  height: 90vh;
   width: 100%;
   background-repeat: no-repeat;
   background-position: top 25% right 0;
@@ -458,7 +458,7 @@ border: 1px solid rgb(184, 34, 34)
   }
 
   @media(max-width:799px){
-   #navbar{ display: flex;
+   #nav{ display: flex;
     flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
@@ -473,11 +473,11 @@ border: 1px solid rgb(184, 34, 34)
   transition: 0.3s;
    }
 
-   #navbar.active{
+   #nav.active{
     right: 0px;
    }
 
-   #navbar li{
+   #nav li{
     margin-bottom: 25px;
    }
 
@@ -515,7 +515,7 @@ border: 1px solid rgb(184, 34, 34)
   }
   .sm-banner .banner-box {
     min-width: 100%;
-    height: 30vh;
+    height: 40vh;
   }
   .copyright{
     margin-left: auto;

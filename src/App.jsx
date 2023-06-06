@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './Header';
+import Navbar from './Navbar';
 import Hero from './Hero';
 import Feature from './Feature';
 import Banner from './Banner';
@@ -12,7 +12,7 @@ function App() {
   
   return (
     <div className="App">
-        <Header />
+        <Navbar />
         <Hero />
         <Feature />
         <Banner />

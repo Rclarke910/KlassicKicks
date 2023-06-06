@@ -3,15 +3,15 @@ import { FaShoppingBag } from "react-icons/fa";
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { AiOutlineClose } from 'react-icons/ai'
 
-function Header(){
+function Navbar(){
 
     const [burgMenu, setBurgMenu] = useState(false)
     const handleClick = () => {setBurgMenu(!burgMenu)}
 
-    return <section id = "header" >
+    return <section id = "navbar" >
 <a href = "#"><h2 className="logo">Klassic<span className = 'logo-span'>Kicks</span></h2></a>
 <div>
-    <ul id = 'navbar' className={burgMenu ? 'active' : '' }>
+    <ul id = 'nav' className={burgMenu ? 'active' : '' }>
     <li><a href="#" id='close'><AiOutlineClose id='close' onClick={handleClick} className={ !burgMenu ? 'closed' : '' }/></a></li>
       <li><a className = "active" href = "index.html">Home</a></li>
       <li><a href = "shop.html">Shop</a></li>
@@ -27,4 +27,4 @@ function Header(){
     </section>
 }
 
-export default Header
+export default Navbar
