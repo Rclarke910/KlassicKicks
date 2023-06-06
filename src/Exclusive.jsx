@@ -1,6 +1,6 @@
 import React from "react";
 import {FaStar, FaShoppingCart} from "react-icons/fa";
-function NewArivals(){
+function Exclusive(){
     return(
             <section id = "product1" className="section-p1">
                 
@@ -149,4 +149,4 @@ function NewArivals(){
     )
 }
 
-export default NewArivals;
+export default Exclusive;

@@ -2,7 +2,7 @@ import React from "react";
 import {FaTwitter, FaFacebookF, FaInstagram, FaPinterest, FaYoutube} from "react-icons/fa"
 function Footer(){
     return (
-        <section>
+        <section style={{ padding: '20px'}}>
             <div id = 'footer'>
             <div className = 'colom'>
             <h4>Contact</h4>
@@ -47,6 +47,8 @@ function Footer(){
                 </div>
                 </div>
                 <div className='copyright'>© 2023 Klassic Kicks, Inc. All Rights Reserved</div>
+                
+                
         </section>
     )
 }

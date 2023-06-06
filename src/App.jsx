@@ -3,7 +3,7 @@ import Header from './Header';
 import Hero from './Hero';
 import Feature from './Feature';
 import Banner from './Banner';
-import NewArivals from './NewArivals';
+import Exclusive from './Exclusive';
 import BannerBox from './BannerBox';
 import NewsLetter from './NewsLetter';
 import Footer from './Footer';
@@ -16,7 +16,7 @@ function App() {
         <Hero />
         <Feature />
         <Banner />
-        <NewArivals />
+        <Exclusive />
         <BannerBox />
         <NewsLetter />
         <Footer />
