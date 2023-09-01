@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 h1{
@@ -127,7 +128,12 @@ color: red;
 
 #hero h1{
   color: rgb(184, 34, 34);
+  font-size: 60px;
 }
+
+#hero h2{
+  font-size: 55px;
+  }
 
 #hero button{
   background-color: rgb(184, 34, 34);
@@ -411,7 +417,7 @@ border: 1px solid rgb(184, 34, 34)
   }
 
   .appstore{
-    height: 55px;
+    height: 40px;
     width: 130px;
     cursor: pointer;
   }

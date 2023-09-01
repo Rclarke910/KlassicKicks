@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import { FaShoppingBag } from "react-icons/fa";
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { AiOutlineClose } from 'react-icons/ai'
+import { Link, Route, Routes } from 'react-router-dom'
 
 function Navbar(){
 
@@ -13,8 +14,8 @@ function Navbar(){
 <div>
     <ul id = 'nav' className={burgMenu ? 'active' : '' }>
     <li><a href="#" id='close'><AiOutlineClose id='close' onClick={handleClick} className={ !burgMenu ? 'closed' : '' }/></a></li>
-      <li><a className = "active" href = "index.html">Home</a></li>
-      <li><a href = "shop.html">Shop</a></li>
+      <li><Link to = "/" className = "active">Home</Link></li>
+      <li><Link to = "/shop">Shop</Link></li>
       <li><a href = "about.html">About</a></li>
       <li><a href = "#footer">Contact</a></li>
       <li><a href = "cart.html"><FaShoppingBag /></a></li>

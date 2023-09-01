@@ -7,19 +7,21 @@ import Exclusive from './Exclusive';
 import BannerBox from './BannerBox';
 import NewsLetter from './NewsLetter';
 import Footer from './Footer';
+import { Link } from 'react-router-dom'
 function App() {
 
   
   return (
     <div className="App">
-        <Navbar />
-        <Hero />
-        <Feature />
-        <Banner />
-        <Exclusive />
-        <BannerBox />
-        <NewsLetter />
-        <Footer />
+          <Navbar />
+          <Hero />
+          <Feature />
+          <Banner />
+          <Exclusive />
+          <BannerBox />
+          <NewsLetter />
+          <Footer /> 
+    
     </div>
   );
 }
